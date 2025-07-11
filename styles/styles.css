@@ -185,3 +185,32 @@ footer textarea{
     margin-bottom: 24px;
 
 }
+
+/* last footer */
+
+.logo{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 50px;
+    text-align: center;
+    gap: 30%;
+}
+.logo-title{
+    font-size: 100px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+
+.logo-description{
+    font-size: x-large;
+    font-weight: 80px; 
+}
+
+.logo-name{
+    font-size: x-large;
+    gap: 10%;
+    font-weight: 50px;
+    text-indent: 20px;
+    
+
+}
