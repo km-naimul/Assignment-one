@@ -115,5 +115,20 @@ margin: 0 auto;}
 .item-title{
     font-size: 50px;
     font-weight: bold;
-    color: blue;
 }
+
+/* User Says style */
+.User-Says{
+    display: flex;
+    gap: 20px;
+}
+
+.Say{
+    padding: 20px;
+}
+.pic-Name{
+    display: flex;
+    font-size: small;
+    padding-right: 20px;
+    font-variant: initial;
+    justify-content: left;}
