@@ -17,6 +17,7 @@
 
 
 /* Shared style */
+body{background-color: #D6DDED;}
 .secondary-bg{
     background-color: #c0bee7;
 }
@@ -36,8 +37,9 @@
 }
 
 .section-title{
-    font-size: 42px;
+    font-size: 80px;
     font-weight: bold;
+    
 }
 
 
@@ -118,6 +120,9 @@ margin: 0 auto;}
 }
 
 /* User Says style */
+.Says{
+    margin: 0 auto;
+}
 .User-Says{
     display: flex;
     gap: 20px;
@@ -132,3 +137,51 @@ margin: 0 auto;}
     padding-right: 20px;
     font-variant: initial;
     justify-content: left;}
+
+    /* footer style */
+    footer{
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+        max-width: 1140px;
+        max-height: 306px;
+        margin: 0 auto;
+    }
+  
+    .footer-column{
+        width: 50%;
+    }
+
+    footer input[type="text"],footer input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:black
+}
+
+footer textarea{
+    height: 135px;
+    border-radius: 15px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 30px 20px;
+    margin-bottom: 24px;
+    border:black
+}
+
+.btn-primary-1{background-color: #4E47FF;
+    width: 110%;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 160px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 24px;
+
+}
